@@ -1,14 +1,22 @@
 * {
     margin: 0;
-    font-size: 45px;
 }
 
 
 .index-meni {
     margin-top: 350px;
-    margin-left: 480px;
+    margin-left: 550px;
 }
 
 .index-meni button {
     height: 150px;
+    font-size: 45px;
+}
+
+.table {
+    padding-top: 50px;
+    font-size: 25px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 200px;
 }

@@ -8,7 +8,7 @@ include 'header.php'
 
         <div class="index-meni">
             <div class="btn">
-                <button type="button" class="btn btn-success">Studenti CRUD</button>
+                <a href="crud.php"><button type="button" class="btn btn-success">Studenti CRUD</button></a>
             </div>
             <div class="btn">
                 <button type="button" class="btn btn-success">Pretraga i Sortiranje</button>
