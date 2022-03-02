@@ -67,7 +67,7 @@ $student = mysqli_fetch_array($data);
     if (isset($_POST['izmeni_button'])) {
         $student = new Student();
         if ($student->izmeniStudenta($_POST['ime_prezime'], $_POST['jmbg'], $_POST['broj_indeksa'], $_POST['fakultet'], $_POST['univerzitet'], $_GET['id_studenta'])) {
-            header('Location: index.php');
+            header('Location: crud.php');
         }
     }
 

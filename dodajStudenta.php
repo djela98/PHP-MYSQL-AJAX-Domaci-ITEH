@@ -60,7 +60,7 @@ $db = new DB('studenti');
     if (isset($_POST['dodaj_button'])) {
         $student = new Student();
         if ($student->dodajStudenta($_POST['ime_prezime'], $_POST['jmbg'], $_POST['broj_indeksa'], $_POST['fakultet'], $_POST['univerzitet'])) {
-            header('Location: index.php');
+            header('Location: crud.php');
         }
     }
 

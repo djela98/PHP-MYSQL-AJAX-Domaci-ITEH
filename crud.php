@@ -39,7 +39,7 @@ include 'header.php'
                         <td><?php echo $red['grad'] ?></td>
                         <td>
                             <a href="izmeniStudenta.php?id_studenta=<?php echo $red['id'] ?>"><button type="button" class="btn btn-primary">Izmena</button></a>
-                            <button type="button" class="btn btn-danger">Obriši</button>
+                            <a href="obrisiStudenta.php?id_studenta=<?php echo $red['id'] ?>"><button type="button" class="btn btn-danger">Obriši</button></a>
                         </td>
                     </tr>
 
