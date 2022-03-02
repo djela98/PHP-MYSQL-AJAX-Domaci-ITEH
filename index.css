@@ -2,10 +2,13 @@
     margin: 0;
 }
 
+body {
+    background-color: #defff8;
+}
 
 .index-meni {
-    margin-top: 350px;
-    margin-left: 550px;
+    margin-top: 300px;
+    margin-left: 450px;
 }
 
 .index-meni button {
@@ -14,9 +17,33 @@
 }
 
 .table {
-    padding-top: 50px;
     font-size: 25px;
     width: 1200px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 200px;
+}
+
+#btn_dodaj {
+    width: 400px;
+    height: 50px;
+    margin-left: 750px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.forma {
+    font-size: 25px;
+    width: 550px;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+
+#dodaj_dugme {
+    margin-top: 15px;
+    width: 550px;
+    height: 45px;
+}
+
+.pocetna {
+    width: 500px;
 }

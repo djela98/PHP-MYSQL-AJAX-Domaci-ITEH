@@ -4,10 +4,12 @@ include 'header.php'
 
 <body>
 
+    <a href="dodajStudenta.php"><button class="btn btn-primary" id="btn_dodaj">Novi student</button></a>
+
     <div class="table">
 
         <table class="table table-bordered">
-            <thead class="table-info text-center">
+            <thead class="table-dark text-center">
                 <tr>
                     <th>ID</th>
                     <th>Ime i Prezime</th>
