@@ -53,3 +53,40 @@ body {
     width: 550px;
     height: 45px;
 }
+
+.pretraga {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 650px;
+}
+
+#input_pretraga {
+    width: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#pretraga-rez {
+    margin-left: 350px;
+}
+
+.sortiranje {
+    display: flex;
+    margin-top: 30px;
+}
+
+#k_sort {
+    width: 200px;
+    margin-right: 25px;
+}
+
+#kol {
+    margin-left: 630px;
+    margin-right: 5px;
+}
+
+#s_sort {
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
